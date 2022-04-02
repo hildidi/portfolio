@@ -6,14 +6,15 @@ export const Skills = ({ title, cards }) => {
 	return (
 		<div id="skills" className="bg-secondary py-5 px-5">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
+				<h2 className="text-primary fw-bold">{title}</h2>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
-						<Card
+						<Card_Skill
 							key={index}
 							title={value.title}
 							description={value.description}
-							link={value.link} />
+							iconsk={value.icons}
+						/>
 					))}
 				</div>
 			</div>
@@ -25,7 +26,7 @@ export const Projects = ({ title, cards }) => {
 	return (
 		<div id="projects" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-light fw-bold">Projects</h1>
+				<h2 className="text-light fw-bold">Projects</h2>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card
@@ -35,9 +36,6 @@ export const Projects = ({ title, cards }) => {
 							icons={value.icons} />
 					))}
 				</div>
-				{/* <div className="text-center">
-					<button type="button" className="btn btn-outline-light">See More</button>
-				</div> */}
 			</div>
 		</div>
 	);
@@ -57,6 +55,21 @@ export const Card = ({ title, description, icons }) => {
 					</Link>
 				))}
 			</div>
+		</div>
+	);
+}
+
+export const Card_Skill = ({ title, icons }) => {
+	return (
+		<div className="card py-2 px-2 mx-sm-3 my-2 card-work-skill" style={{ width: "8rem" }}>
+			<p className="text-primary">{title}</p>
+			{icons && icons.map((value, index) => (
+				<Link key={index} href={value.link}>
+					<a target="_blank" rel="noreferrer">
+						<FontAwesomeIcon className="icon-style mx-1" icons={value.icon} size="2x" />
+					</a>
+				</Link>
+			))}
 		</div>
 	);
 }

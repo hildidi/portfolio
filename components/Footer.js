@@ -5,7 +5,7 @@ export const Contact = ({ title, description, buttons }) => {
 	return (
 		<div id="contact" className="bg-white py-5 px-5">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
+				<h2 className="text-primary fw-bold">{title}</h2>
 				<div className="px-sm-5">
 					<p>{description}</p>
 					<div className="">
