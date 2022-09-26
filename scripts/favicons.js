@@ -78,4 +78,4 @@ const callback = function (error, response) {
 };
 
 console.log('Generating favicons...');
-favicons(source, configuration, callback);
+// favicons(source, configuration, callback);
