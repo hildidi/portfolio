@@ -9,7 +9,7 @@ export const Skills = ({ title, cards }) => {
 				<h1 className="text-primary fw-bold">{title}</h1>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
-						<Card
+						<Card_Skill
 							key={index}
 							title={value.title}
 							description={value.description}
@@ -57,6 +57,21 @@ export const Card = ({ title, description, icons }) => {
 					</Link>
 				))}
 			</div>
+		</div>
+	);
+}
+
+export const Card_Skill = ({ title, icons }) => {
+	return (
+		<div className="card py-2 px-2 mx-sm-3 my-2 card-work-skill" style={{ width: "8rem" }}>
+			<p className="text-primary">{title}</p>
+			{icons && icons.map((value, index) => (
+				<Link key={index} href={value.link}>
+					<a target="_blank" rel="noreferrer">
+						<FontAwesomeIcon className="icon-style mx-1" icons={value.icon} size="2x" />
+					</a>
+				</Link>
+			))}
 		</div>
 	);
 }

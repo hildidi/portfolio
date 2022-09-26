@@ -29,7 +29,7 @@ export const Intro = ({ title, description, image, buttons }) => {
 						<img
 							className="img-fluid my-3 card-image" width="250"
 							height="250" src={image}
-							alt="profile of hashirshoaeb"
+							alt="Diana, a Latinx woman with black, above-shoulder hair wearing a sleeveless white shirt. She smiles in front of a white backgroun." title="Diana's profile picture."
 						/>
 					</div>
 				</div>

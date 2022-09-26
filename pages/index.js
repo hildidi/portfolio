@@ -9,7 +9,7 @@ import { Header } from '../components/Header';
 export default function Home() {
   return (
     <Fragment>
-      <Header seo={SEO} />
+      {/* <Header seo={SEO} /> */}
       <Nav
         title={navigation.name}
         links={navigation.links}
@@ -24,13 +24,13 @@ export default function Home() {
         title={about.title}
         description={about.description}
       />
-      <Skills
-        title={work.title}
-        cards={work.cards}
-      />
       <Projects
         title={projects.title}
         cards={projects.cards}
+      />
+      <Skills
+        title={work.title}
+        cards={work.cards}
       />
       <Contact
         title={contact.title}
