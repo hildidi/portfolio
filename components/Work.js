@@ -6,7 +6,7 @@ export const Skills = ({ title, cards }) => {
 	return (
 		<div id="skills" className="bg-secondary py-5 px-5">
 			<div className="container">
-				<h1 className="text-primary fw-bold">{title}</h1>
+				<h2 className="text-primary fw-bold">{title}</h2>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card_Skill
@@ -25,7 +25,7 @@ export const Projects = ({ title, cards }) => {
 	return (
 		<div id="projects" className="bg-primary py-5 px-5">
 			<div className="container">
-				<h1 className="text-light fw-bold">Projects</h1>
+				<h2 className="text-light fw-bold">Projects</h2>
 				<div className="d-flex flex-row flex-wrap justify-content-center">
 					{cards.map((value, index) => (
 						<Card
@@ -46,7 +46,7 @@ export const Projects = ({ title, cards }) => {
 export const Card = ({ title, description, icons }) => {
 	return (
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>
-			<h4 className="text-primary">{title}</h4>
+			<h3 className="text-primary">{title}</h3>
 			<p className="text-dark">{description}</p>
 			<div className="text-end">
 				{icons && icons.map((value, index) => (
@@ -64,7 +64,7 @@ export const Card = ({ title, description, icons }) => {
 export const Card_Skill = ({ title, icons }) => {
 	return (
 		<div className="card py-2 px-2 mx-sm-3 my-2 card-work-skill" style={{ width: "8rem" }}>
-			<p className="text-primary">{title}</p>
+			<p className="text-primary mb-0 text-center">{title}</p>
 			{icons && icons.map((value, index) => (
 				<Link key={index} href={value.link}>
 					<a target="_blank" rel="noreferrer">

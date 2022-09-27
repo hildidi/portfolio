@@ -26,7 +26,7 @@ export const navigation = {
 }
 export const intro = {
 	title: "Hi, I'm Diana!",
-	description: "I'm a Software Engineer based in New York City.",
+	description: "I'm a Software Engineer based in New York City with a passion for web accessibility.",
 	image: profile.src,
 	buttons: [
 		{
@@ -83,36 +83,28 @@ export const work = {
 	title: "Skills",
 	cards: [
 		{
-			title: "JavaScript",
-			icons: faJs
+			title: "JavaScript"
 		},
 		{
-			title: "React.js",
-			icons: faReact
+			title: "Ruby"
 		},
 		{
-			title: "Node-js",
-			icons: faNodeJs
+			title: "Ruby on Rails"
 		},
 		{
-			title: "Rails",
-			icons: faTrain
+			title: "React.js"
 		},
 		{
-			title: "Ruby",
-			icons: faGem
+			title: "Node.js"
 		},
 		{
-			title: "HTML5",
-			icons: faHtml5
+			title: "GraphQL"
 		},
 		{
-			title: "CSS",
-			icons: faCss3,
+			title: "PostgreSQL"
 		},
 		{
-			title: "GitHub",
-			icons: faGithub,
+			title: "Firebase"
 		}
 
 	],

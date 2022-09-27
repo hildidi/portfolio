@@ -9,7 +9,7 @@ import { Header } from '../components/Header';
 export default function Home() {
   return (
     <Fragment>
-      {/* <Header seo={SEO} /> */}
+      <Header seo={SEO} />
       <Nav
         title={navigation.name}
         links={navigation.links}
