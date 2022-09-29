@@ -68,11 +68,11 @@ export const projects = {
 		},
 		{
 			title: "Vegan Catering",
-			description: "1.	Web app designed for customers to place food catering orders.",
+			description: "Web app designed for customers to place food catering orders.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hildidi/myprofile/tree/main/my-https://github.com/hildidi/VeganCartering",
+					link: "https://github.com/hildidi/VeganCartering",
 				},
 			]
 		},
