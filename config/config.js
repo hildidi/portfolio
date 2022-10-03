@@ -75,17 +75,17 @@ export const projects = {
 					link: "https://github.com/hildidi/VeganCartering",
 				},
 			]
-		},
-		{
-			title: "Portfolio",
-			description: "A portfolio website template showcasing my work, projects and skills as a software developer.",
-			icons: [
-				{
-					icon: faGithub,
-					link: "https://github.com/hildidi/myprofile/tree/main/my-website",
-				},
-			]
-		},
+		}
+		// {
+		// 	title: "Portfolio",
+		// 	description: "A portfolio website template showcasing my work, projects and skills as a software developer.",
+		// 	icons: [
+		// 		{
+		// 			icon: faGithub,
+		// 			link: "https://github.com/hildidi/myprofile/tree/main/my-website",
+		// 		},
+		// 	]
+		// },
 	],
 }
 
