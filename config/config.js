@@ -53,26 +53,29 @@ export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "Reporting System 311",
-			description: "Non-emergency reporting system where City residents can to submit issues about potholes, broken sidewalks and other issues handled by public agencies in NYC.",
+			title: "Reporting System NYC 311",
+			description: "Web app developed using Ruby on Rails in the backend and React in the frontend. The app allows users to submit non-emergency issues handled by NYC public agencies/",
 			icons: [
 				{
 					icon: faVideo,
 					link: "https://www.loom.com/share/7e2032342f7245b1b9c51a87ae317bd2",
+					icontitle: "video"
 				},
 				{
 					icon: faGithub,
 					link: "https://github.com/hildidi/311-services-project",
+					icontitle: "github"
 				},
 			]
 		},
 		{
 			title: "Vegan Catering",
-			description: "Web app designed for customers to place food catering orders.",
+			description: "Web app developed using React in the frontend. The app is designed for users to place catering orders and submit suggestions.",
 			icons: [
 				{
 					icon: faGithub,
 					link: "https://github.com/hildidi/VeganCartering",
+					icontitle: "github"
 				},
 			]
 		}
