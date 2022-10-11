@@ -32,8 +32,7 @@ export const Projects = ({ title, cards }) => {
 							key={index}
 							title={value.title}
 							description={value.description}
-							icons={value.icons}
-							icontitle={value.icontitle} />
+							icons={value.icons} />
 					))}
 				</div>
 				{/* <div className="text-center">
