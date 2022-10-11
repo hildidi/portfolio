@@ -31,6 +31,7 @@ export const Projects = ({ title, cards }) => {
 						<Card
 							key={index}
 							title={value.title}
+							link={value.link}
 							description={value.description}
 							icons={value.icons} />
 					))}
