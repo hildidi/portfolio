@@ -44,7 +44,7 @@ export const Projects = ({ title, cards }) => {
 export const Card = ({ title, description, icons }) => {
 	return (
 		<div className="card py-3 px-3 mx-sm-4 my-4 card-work" style={{ width: "20rem" }}>
-			<h4 className="text-primary">{title}</h4>
+			<h3 className="text-primary">{title}</h3>
 			<p className="text-dark">{description}</p>
 			<div className="text-end">
 				{icons && icons.map((value, index) => (
@@ -62,7 +62,11 @@ export const Card = ({ title, description, icons }) => {
 export const Card_Skill = ({ title, icons }) => {
 	return (
 		<div className="card py-2 px-2 mx-sm-3 my-2 card-work-skill" style={{ width: "8rem" }}>
+<<<<<<< HEAD
 			<p className="text-primary">{title}</p>
+=======
+			<p className="text-primary mb-0 text-center">{title}</p>
+>>>>>>> c11d39d66903d5995b81382211311b33e7a2c601
 			{icons && icons.map((value, index) => (
 				<Link key={index} href={value.link}>
 					<a target="_blank" rel="noreferrer">

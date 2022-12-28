@@ -16,11 +16,11 @@ export const Intro = ({ title, description, image, buttons }) => {
 							{buttons.map((value, index) => (
 								(value.isPrimary) ?
 									<Link key={index} href={value.link}>
-										<a className="btn btn-primary my-1 mx-3">{value.title}</a>
+										<a className="btn btn-primary my-1 mx-3" role="button" type=" button">{value.title}</a>
 									</Link>
 									:
 									<Link key={index} href={value.link}>
-										<a target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3">{value.title}</a>
+										<a target="_blank" rel="noreferrer" className="btn btn-outline-primary my-1 mx-3" role="button" type="button">{value.title}</a>
 									</Link>
 							))}
 						</div>
@@ -28,13 +28,18 @@ export const Intro = ({ title, description, image, buttons }) => {
 					<div className="col-sm-6 text-center">
 						<img
 							className="img-fluid my-3 card-image" width="250"
+<<<<<<< HEAD
 							height="250" src={publicRuntimeConfig.basePath + image}
 							alt="Diana, a Latinx woman with black, above-shoulder hair wearing a sleeveless white shirt. She smiles in front of a white backgroun." title="Diana's profile picture."
+=======
+							height="250" src={image}
+							alt="Diana, a Latinx woman with black, medium hair wearing a yellow sweater smiles in front of a blurred out street." title="Diana's profile picture."
+>>>>>>> c11d39d66903d5995b81382211311b33e7a2c601
 						/>
 					</div>
 				</div>
 			</div>
-		</div>
+		</div >
 	);
 }
 
