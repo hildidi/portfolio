@@ -17,7 +17,8 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
-    "deploy": "npm run custom-domain && node scripts/pages.js hildidi master",
+    
+    "deploy": "gh-pages-clean -npm run custom-domain && node scripts/pages.js hildidi master",
     "custom-domain": "node scripts/cname.js hdianacardenas.com www.hdianacardenas.com",
     "lint": "next lint"
   },
