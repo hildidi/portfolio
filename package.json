@@ -1,22 +1,14 @@
 {
   "name": "portfolio",
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
-<<<<<<< HEAD
-  "homepage": "http://hdianacardenas.com",
-=======
   "homepage": "https://hildidi.github.io/portfolio/",
->>>>>>> c11d39d66903d5995b81382211311b33e7a2c601
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "author": {
     "name": "Diana Cardenas",
     "email": "hcardenas00@gmail.com",
-<<<<<<< HEAD
-    "url": "https://github.com/hildidi"
-=======
     "url": "https://hildidi.github.io/portfolio/"
->>>>>>> c11d39d66903d5995b81382211311b33e7a2c601
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
