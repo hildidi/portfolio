@@ -34,13 +34,26 @@ export const Footer = () => {
 	return (
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
-				<small>&copy; 2021 {" "}
+
+				{/* webring */}
+
+				<nav class="a11y-webring-club" aria-labelledby="a11y-webring-club">
+					<h2 id="a11y-webring-club">a11y-webring.club</h2>
+					<p>This site is a member of the <a rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
+					<ul>
+						<li><a rel="previous external" href="https://a11y-webring.club/prev">Previous website</a></li>
+						<li><a rel="external" href="https://a11y-webring.club/random">Random website</a></li>
+						<li><a rel="next external" href="https://a11y-webring.club/next">Next website</a></li>
+					</ul>
+				</nav>
+
+				{/* <small>&copy; 2021 {" "}
 					Open sourced with love under {" "}
 					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
 						<a>MIT</a>
 					</Link>
 					{" "} License
-				</small>
+				</small> */}
 			</div>
 		</footer>
 	);
