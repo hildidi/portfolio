@@ -37,7 +37,7 @@ export const Footer = () => {
 
 				{/* webring */}
 
-				<nav class="a11y-webring-club" aria-labelledby="a11y-webring-club">
+				<nav className="a11y-webring-club" aria-labelledby="a11y-webring-club">
 					<h2 id="a11y-webring-club">a11y-webring.club</h2>
 					<p>This site is a member of the <a rel="external" href="https://a11y-webring.club/">a11y-webring.club</a>.</p>
 					<ul>
