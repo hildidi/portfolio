@@ -28,13 +28,8 @@ export const Intro = ({ title, description, image, buttons }) => {
 					<div className="col-sm-6 text-center">
 						<img
 							className="img-fluid my-3 card-image" width="250"
-<<<<<<< HEAD
-							height="250" src={publicRuntimeConfig.basePath + image}
-							alt="Diana, a Latinx woman with black, above-shoulder hair wearing a sleeveless white shirt. She smiles in front of a white backgroun." title="Diana's profile picture."
-=======
 							height="250" src={image}
 							alt="Diana, a Latinx woman with black, medium hair wearing a yellow sweater smiles in front of a blurred out street." title="Diana's profile picture."
->>>>>>> c11d39d66903d5995b81382211311b33e7a2c601
 						/>
 					</div>
 				</div>

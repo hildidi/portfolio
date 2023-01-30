@@ -117,7 +117,6 @@ export const work = {
 
 export const contact = {
 	title: "Get in touch",
-	description: "Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email.",
 	buttons: [
 		{
 			title: "Email Me",
