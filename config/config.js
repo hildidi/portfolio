@@ -135,33 +135,24 @@ export const contact = {
 export const SEO = {
 	// 50 - 60 char  
 	title: " Reactjs developer | Backend Developer",
-	description: "I create static websites...",
+	description: "I create inclusive websites with accessibility in mind.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@hildidi",
+	description: "Reactjs Developer",
 	cards: [
-		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/"
-		},
-
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/"
-		},
 
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/"
+			link: "https://github.com/hildidi/"
 		},
 
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/"
+			link: "https://www.linkedin.com/in/hdcardenas/"
 		}
 
 	]
