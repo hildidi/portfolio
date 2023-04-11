@@ -1,13 +1,18 @@
 {
   "name": "portfolio",
+<<<<<<< HEAD
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+=======
+  "description": "A portfolio website template to showcase work, projects and skills as a software developer.",
+  "homepage": "https://hildidi.github.io/portfolio/",
+>>>>>>> 6911ea0bd158ac026ada7dc0d7116c8ff40d30cd
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "author": {
     "name": "Hilda Cardenas",
     "email": "hcardenas00@gmail.com",
-    "url": "https://github.com/hildidi"
+    "url": "https://hildidi.github.io/portfolio/"
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
@@ -21,6 +26,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
@@ -36,5 +42,22 @@
     "favicons": "^7.0.0",
     "gh-pages": "^3.2.3",
     "sass": "^1.37.5"
+=======
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.1",
+    "next": "12.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.23.1",
+    "eslint-config-next": "12.3.0",
+    "favicons": "^7.1.2",
+    "gh-pages": "^4.0.0",
+    "sass": "^1.54.9"
+>>>>>>> 6911ea0bd158ac026ada7dc0d7116c8ff40d30cd
   }
 }

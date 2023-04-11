@@ -1,10 +1,10 @@
 
 import profile from './profile.png';
-import { faCss3, faGithub, faHtml5, faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import { faGem, faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faAppStore, faCss3, faGithub, faGooglePlay, faHtml5, faJs, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faGem, faTrain, faVideo } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Diana",
+	name: "Hilda",
 	links: [
 		{
 			title: "About",
@@ -20,13 +20,13 @@ export const navigation = {
 		},
 		{
 			title: "Links",
-			link: "/links",
+			link: "#links",
 		},
 	],
 }
 export const intro = {
-	title: "Hi, I'm Diana!",
-	description: "I'm a Software Engineer based in New York City.",
+	title: "Hi, I'm Hilda!",
+	description: "I'm a Software Engineer based in New York City with a passion for building inclusive, web-accessible applications.",
 	image: profile.src,
 	buttons: [
 		{
@@ -36,7 +36,7 @@ export const intro = {
 		},
 		{
 			title: "Resume",
-			link: "https://drive.google.com/file/d/1xasenkmQ1SfshwO0UdSfvmewRAX0K56G/view",
+			link: "https://drive.google.com/file/d/1HF5t6aK_i1Vp9VZfilVjRMUa9PhwjzdP/view?usp=sharing",
 			isPrimary: false,
 		},
 	],
@@ -44,20 +44,20 @@ export const intro = {
 
 export const about = {
 	title: "About Me",
-	description: [
-		"I have experience working in the housing and transportation fields. I am passionate about web accessibility.",
-		"Having worked directly with persons with disabilities and remediating digital content for accessibility led me to pursue software engineering at the Flatiron School.",
-		"This has been a great combination of my skills and interests. I am eager to continue to create applications that benefit a wide range of users.",
-	],
+	description: "Software engineer with a background in web accessibility, data management, and user experience. Passionate about inclusive web development to design innovative technology for a wide range of users."
 }
-
 
 export const projects = {
 	title: "Projects",
 	cards: [
 		{
-			title: "Reporting System 311",
-			description: "Non-emergency reporting system where City residents can to submit issues about potholes, broken sidewalks and other issues handled by public agencies in NYC.",
+			title: [
+				{
+					name: "Reporting System NYC 311",
+					link: "https://github.com/hildidi/311-services-project"
+				}
+			],
+			description: "Web app developed using Ruby on Rails in the backend and React in the frontend. The app allows users to submit non-emergency issues handled by NYC public agencies.",
 			icons: [
 				{
 					icon: faVideo,
@@ -70,15 +70,16 @@ export const projects = {
 			]
 		},
 		{
-			title: "Portfolio",
-			description: "A portfolio website template showcasing my work, projects and skills as a software developer.",
+			title: "Vegan Catering",
+			link: "https://github.com/hildidi/VeganCartering",
+			description: "Web app developed using React in the frontend. The app is designed for users to place catering orders and submit suggestions.",
 			icons: [
 				{
 					icon: faGithub,
-					link: "https://github.com/hildidi/myprofile/tree/main/my-website",
+					link: "https://github.com/hildidi/VeganCartering",
 				},
 			]
-		},
+		}
 	],
 }
 
@@ -86,43 +87,36 @@ export const work = {
 	title: "Skills",
 	cards: [
 		{
-			title: "JavaScript",
-			icons: faJs
+			title: "JavaScript"
 		},
 		{
-			title: "React.js",
-			icons: faReact
+			title: "Ruby"
 		},
 		{
-			title: "Node-js",
-			icons: faNodeJs
+			title: "Ruby on Rails"
 		},
 		{
-			title: "Rails",
+			title: "React.js"
 		},
 		{
-			title: "Ruby",
-			icons: faGem
+			title: "Node.js"
 		},
 		{
-			title: "HTML5",
-			icons: faHtml5
+			title: "GraphQL"
 		},
 		{
-			title: "CSS",
-			icons: faCss3,
+			title: "PostgreSQL"
 		},
 		{
-			title: "GitHub",
-			icons: faGithub,
+			title: "Firebase"
 		}
 
 	],
 }
 
+
 export const contact = {
 	title: "Get in touch",
-	description: "Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email.",
 	buttons: [
 		{
 			title: "Email Me",
@@ -140,34 +134,26 @@ export const contact = {
 // SEARCH ENGINE 
 export const SEO = {
 	// 50 - 60 char  
-	title: "Diana Cárdenas | Software Engineer",
+	title: " Reactjs developer | Backend Developer",
+	description: "I create inclusive websites with accessibility in mind.",
 	image: profile.src,
 }
 
 export const links = {
 	image: profile.src,
-	title: "@hashirshoaeb",
-	description: "Computer Engineer | Flutter | Reactjs Developer",
+	title: "@hildidi",
+	description: "Reactjs Developer",
 	cards: [
-		{
-			title: "My website",
-			link: "https://hashirshoaeb.com/",
-		},
-		{
-			title: "QuranTalk App",
-			link: "https://www.qurantalk.app/",
-		},
-		{
-			title: "StarBook App",
-			link: "https://starbook.dev/",
-		},
+
 		{
 			title: "My GitHub",
-			link: "https://github.com/hashirshoaeb/",
+			link: "https://github.com/hildidi/"
 		},
+
 		{
 			title: "My LinkedIn",
-			link: "https://www.linkedin.com/in/hashirshoaeb/",
-		},
+			link: "https://www.linkedin.com/in/hdcardenas/"
+		}
+
 	]
 }

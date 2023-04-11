@@ -1,9 +1,8 @@
-const fs = require('fs')
+import { writeFile } from 'fs'
 
 const args = process.argv.slice(2)
 const content = args.join('\n')
 const filePath = './out/CNAME'
-
 /**
  * Add CNAME to the file
  * All the args are joined by new line in [content]
@@ -14,7 +13,7 @@ const filePath = './out/CNAME'
  * node script/cname.js hashirshoaeb.com www.hashirshoaeb.com
  */
 console.log("Creating CNAME...")
-fs.writeFile(filePath, content, (err) => {
+writeFile(filePath, content, (err) => {
   if (err) {
     console.error(err)
   }
