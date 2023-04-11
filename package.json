@@ -1,12 +1,12 @@
 {
   "name": "portfolio",
-  "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+  "description": "A portfolio website template to showcase work, projects and skills as a software developer.",
   "homepage": "https://hildidi.github.io/portfolio/",
   "version": "0.2.0",
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Diana Cardenas",
+    "name": "Hilda Cardenas",
     "email": "hcardenas00@gmail.com",
     "url": "https://hildidi.github.io/portfolio/"
   },
@@ -34,7 +34,7 @@
   "devDependencies": {
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
-    "favicons": "^6.2.2",
+    "favicons": "^7.1.2",
     "gh-pages": "^4.0.0",
     "sass": "^1.54.9"
   }

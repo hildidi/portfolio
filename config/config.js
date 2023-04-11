@@ -4,7 +4,7 @@ import { faAppStore, faCss3, faGithub, faGooglePlay, faHtml5, faJs, faNodeJs, fa
 import { faGem, faTrain, faVideo } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-	name: "Diana",
+	name: "Hilda",
 	links: [
 		{
 			title: "About",
@@ -25,8 +25,8 @@ export const navigation = {
 	],
 }
 export const intro = {
-	title: "Hi, I'm Diana!",
-	description: "I'm a Software Engineer based in New York City with a passion for web accessibility.",
+	title: "Hi, I'm Hilda!",
+	description: "I'm a Software Engineer based in New York City with a passion for building inclusive, web-accessible applications.",
 	image: profile.src,
 	buttons: [
 		{
@@ -44,7 +44,7 @@ export const intro = {
 
 export const about = {
 	title: "About Me",
-	description: "Software engineer with a background in web accessibility, data management, and user experience. Passionate about inclusive web development to help design innovative technology for a wide range of users."
+	description: "Software engineer with a background in web accessibility, data management, and user experience. Passionate about inclusive web development to design innovative technology for a wide range of users."
 }
 
 export const projects = {
